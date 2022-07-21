@@ -1,0 +1,28 @@
+.design{
+    border:2px solid rgb(233, 149, 149);
+    padding: 10% ;
+    background: rgb(192, 233, 192); 
+    margin: 4px ;
+    font-size: 40px;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+
+  
+}
+h1{
+    /* color: orange; */
+    margin-left: 12em;
+
+}
+/* .outer{
+    background-color: black;
+    height: 800px;
+    width: 800px;
+    padding: 40px;
+
+    
+} */
+body{
+    background-color:rgb(252, 243, 252) ;
+}

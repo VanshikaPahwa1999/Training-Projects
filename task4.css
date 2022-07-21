@@ -1,0 +1,19 @@
+.first{
+    display: flex;
+    flex-direction:row ;
+  
+   
+}
+.second
+{
+    background-color: aquamarine;
+    height: 550px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;/*important*/
+    text-align: center;
+    padding: 4em;
+    font-size: larger;
+    line-height: 2em;
+}

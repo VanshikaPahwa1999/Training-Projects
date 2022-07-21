@@ -1,0 +1,90 @@
+* {
+    font-family: Roboto,sans-serif;
+}
+.Nav {
+    display: flex;
+    flex-direction: row;
+    padding:1em;
+    padding-bottom: 2em;
+    margin:0;
+    align-items:center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(109,109,111,0.4);
+    color: rgba(0,0,0,0.65);
+    height:1em;
+}
+
+#comp-name {
+    font-size: 2em;
+    font-weight: bold;
+    flex:2;
+    color:black;
+}
+
+#sign-up {
+    flex:2;
+    color:blue;
+    text-align: right;
+    font-weight: bold;
+}
+
+#login {
+    font-weight:bold;
+    color:black;
+}
+
+
+.Nav a {
+    font-size: 1em;
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.content {
+    width:50%;
+    align-items: center;
+    margin:auto;
+}
+
+.content-1 h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.content-1 p {
+    font-size: 1.1em;
+}
+.ship-opts {
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin:0;
+}
+.ship-opt {
+    border:1.5px solid rgba(109, 109, 111, 0.3);
+    border-radius: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    margin:1em;
+    width:8.5em;
+    height:8.5em;
+    justify-content: center;
+    align-items: center;
+}
+.ship-opt img {
+    width:4em;
+    text-align: center;
+}
+
+.ship-opt p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height:1.5em;
+}
